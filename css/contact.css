@@ -166,14 +166,13 @@ footer nav a {
     margin-bottom: 200px;
 }
 
-@keyframes reachanim {
+@keyframes anim-button {
       from {background-color: red;}
       to {background-color: yellow;}
 }
     
-/* .reach {
-    background-color: red;
-    animation-name: reachanim;
+button {
+    animation-name: anim-button;
     animation-duration: 1s;
     padding: 10px;
-} */
+}
